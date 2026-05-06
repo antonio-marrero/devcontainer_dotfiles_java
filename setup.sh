@@ -15,4 +15,6 @@ echo '\n\nexport LANG=en_US.utf8' >> $HOME/.profile
 echo -e '\nexport LC_ALL=en_US.utf8' >> $HOME/.profile
 
 # ripgrep is used by neovim telescope
-sudo apt-get update && sudo apt-get install -y ripgrep
+sudo apt-get update 
+sudo apt-get install -y ripgrep
+sudo apt-get install -y lua5.1
