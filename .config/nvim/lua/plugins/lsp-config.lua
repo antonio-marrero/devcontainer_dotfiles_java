@@ -114,7 +114,7 @@ return {
         },
         config = function()
           require("mason-null-ls").setup({
-              ensure_installed = { "prettier", "stylua", "eslint_d", "jq" }, -- formatters and linters to install
+              ensure_installed = { "prettier", "stylua", "eslint_d", "jq", "google-java-format" }, -- formatters and linters to install
               automatic_installation = true
           })
         end,
