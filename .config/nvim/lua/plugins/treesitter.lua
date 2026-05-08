@@ -26,6 +26,6 @@ return {
             indent = {enable = true},
         })
         -- parsers are installed in ~/.local/share/nvim/site/parser/ as '.so' libraries
-        require('nvim-treesitter').install {'vim', 'vimdoc', 'lua', 'java', 'javascript', 'typescript', 'html', 'css', 'json', 'tsx', 'markdown', 'markdown_inline', 'gitignore', 'yaml', 'bash', 'dockerfile', 'c_sharp','xml'}
+        require('nvim-treesitter').install {'vim', 'vimdoc', 'lua', 'java', 'javascript', 'typescript', 'html', 'css', 'json', 'tsx', 'markdown', 'markdown_inline', 'gitignore', 'yaml', 'bash', 'dockerfile','xml'}
     end
 }
